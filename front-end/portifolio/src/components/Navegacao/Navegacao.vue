@@ -29,7 +29,7 @@
         transform
         hover:-translate-y-1 hover:scale-110
       "
-      >About-Us</a
+      >ABOUT-US</a
     >
     <a
       href=""
@@ -44,7 +44,7 @@
         transform
         hover:-translate-y-1 hover:scale-110
       "
-      >Portifolio</a
+      >PORTIFOLIO</a
     >
     <a
       href=""
@@ -59,7 +59,7 @@
         transform
         hover:-translate-y-1 hover:scale-110
       "
-      >Contact</a
+      >CONTACT</a
     >
   </div>
 </template>
