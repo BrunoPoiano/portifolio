@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col bg-blue-200 h-screen place-content-center">
+  <div class="flex flex-col h-screen place-content-center
+    bg-gradient-to-r from-blue-200 to-blue-500
+  ">
     <div class="flex self-center">
       <p class="lg:text-7xl text-3xl">Hello, We're</p>
       <p class="lg:text-7xl text-3xl text-red-600 p-0.5">BMWeb</p>
@@ -14,6 +16,7 @@
           p-2
           rounded-lg
           cursor-pointer
+          
           border-4 border-light-red-500 border-opacity-50
           bg-blue-500
           transition
