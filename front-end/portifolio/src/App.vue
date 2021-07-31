@@ -1,12 +1,11 @@
 <template>
-<div>
+<div class="m-0">
   <home />
   <navegacao />
   <about-us />
   <portifolio />
   <contact/>
-  <rodape />
-
+  <rodape /> 
 </div>
 </template>
 

@@ -1,10 +1,12 @@
 <template>
-  <div class="h-12 flex bg-blue-500">
-    <a href="#" class="ml-12 links">HOME</a>
+
+  <nav class="h-12 flex bg-blue-500">
+   <a href="#" class="lg:ml-12 links">HOME</a>
     <a href="#" class="links">ABOUT US</a>
     <a href="#" class="links">PORTIFOLIO</a>
     <a href="#" class="links">CONTACT</a>
-  </div>
+ </nav>
+ 
 </template>
 
 <script>
@@ -14,7 +16,8 @@ export default {};
 <style>
 .links {
   @apply self-center
-        p-3
+        lg:p-3
+        p-2
         font-bold
         transition
         duration-500
