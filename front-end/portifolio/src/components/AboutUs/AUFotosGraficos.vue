@@ -1,22 +1,26 @@
 <template>
   <div class="h-auto m-2">
-    <div class="flex flex-wrap lg:flex-nowrap">
+    <div class="flex flex-wrap lg:flex-nowrap ">
       <!-- Fotos-->
-      <div class="lg:w-2/5 flex flex-wrap place-content-center">
-        <div class="w-1/2 bg-red-500">
-          <img src="public/bruno.png" @click="bruno" />
+      <div class="lg:w-2/5 flex flex-wrap place-content-center shadow-2xl ">
+        <div class="w-1/2 ">
+          <img src="public/bruno.png" @click="bruno" @mouseover="bruno" />
         </div>
 
-        <div class="w-1/2 bg-blue-500">
-          <img src="public/Wesley.jpg" @click="wesley" />
+        <div class="w-1/2 ">
+          <img src="public/Wesley.jpg" @click="wesley" @mouseover="wesley" />
         </div>
 
-        <div class="w-1/2 bg-green-500 shadow-2xl">
-          <img src="public/stockPicture.jpg" @click="matheus" />
+        <div class="w-1/2  ">
+          <img
+            src="public/stockPicture.jpg"
+            @click="matheus"
+            @mouseover="matheus"
+          />
         </div>
       </div>
       <!-- BARRAs-->
-      <div class="lg:w-3/5 m-3">
+      <div class="lg:w-3/5 m-3 shadow-2xl">
         <div class="p-2">
           <h3 class="flex justify-center text-3xl">{{ tecs.nome }}</h3>
         </div>
@@ -169,7 +173,7 @@ export default {
 </script>
 <style>
 img {
-  @apply rounded-full transform scale-50 cursor-pointer;
+  @apply shadow-2xl rounded-full self-center transform hover:scale-75 delay-150 duration-300 ease-in-out scale-50 cursor-pointer;
 }
 .barraFundo {
   @apply bg-gray-200 rounded h-8;
