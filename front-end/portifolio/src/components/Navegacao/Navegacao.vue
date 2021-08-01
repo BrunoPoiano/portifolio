@@ -1,71 +1,29 @@
 <template>
-  <div class="h-12 bg-blue-500 flex">
-    <a
-      href=""
-      class="
-        ml-12
-        self-center
-        p-3
-        font-bold
-        transition
-        duration-500
-        ease-in-out
-        hover:text-red-700
-        transform
-        hover:-translate-y-1 hover:scale-110
-      "
-      >HOME</a
-    >
-    <a
-      href=""
-      class="
-        self-center
-        p-3
-        font-bold
-        transition
-        duration-500
-        ease-in-out
-        hover:text-red-700
-        transform
-        hover:-translate-y-1 hover:scale-110
-      "
-      >ABOUT-US</a
-    >
-    <a
-      href=""
-      class="
-        self-center
-        p-3
-        font-bold
-        transition
-        duration-500
-        ease-in-out
-        hover:text-red-700
-        transform
-        hover:-translate-y-1 hover:scale-110
-      "
-      >PORTIFOLIO</a
-    >
-    <a
-      href=""
-      class="
-        self-center
-        p-3
-        font-bold
-        transition
-        duration-500
-        ease-in-out
-        hover:text-red-700
-        transform
-        hover:-translate-y-1 hover:scale-110
-      "
-      >CONTACT</a
-    >
-  </div>
+
+  <nav class="h-12 flex bg-blue-500">
+   <a href="#" class="lg:ml-12 links">HOME</a>
+    <a href="#" class="links">ABOUT US</a>
+    <a href="#" class="links">PORTIFOLIO</a>
+    <a href="#" class="links">CONTACT</a>
+ </nav>
+ 
 </template>
 
 <script>
 export default {};
 </script>
 
-<style></style>
+<style>
+.links {
+  @apply self-center
+        lg:p-3
+        p-2
+        font-bold
+        transition
+        duration-500
+        ease-in-out
+        hover:text-red-700
+        transform
+        hover:-translate-y-1 hover:scale-110;
+}
+</style>

@@ -1,15 +1,13 @@
 <template>
-<div>
-  <home />
-  <navegacao />
-  <about-us />
-  <portifolio />
-  <contact/>
-  <rodape />
-
-</div>
+  <div >
+    <home />
+    <navegacao />
+    <about-us />
+    <portifolio />
+    <contact/>
+    <rodape /> 
+  </div>
 </template>
-
 <script>
 import AboutUs from './components/AboutUs/AboutUs.vue'
 import Contact from './components/Contact/Contact.vue'
